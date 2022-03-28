@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -9,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0;
   background-color: #f5f2f0;
 }
 
@@ -17,8 +18,8 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin: 0;
-  padding: 1rem 0;
+  margin: 1.5rem 1rem 1.25rem;
+  padding: 0;
 }
 
 li {
@@ -35,27 +36,31 @@ h1, h2 {
   color: #623b0c;
 }
 
+h1 {
+  margin: 0;
+  padding: .5em 1rem 0;
+}
+
 h2 {
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 1rem 0;
 }
 
 img {
   width: 100%;
-  margin: 0;
-  padding: 1rem;
+  margin: 1.5rem 0 0;
+  padding: 0 1rem .75em;
 }
 
 p {
-  margin: 0;
-  padding: 1rem;
-  font-family: "Georgia", serif;
+  margin: 0 0 auto;
+  padding: 0 1rem;
   color: #000;
 }
 
 li a {
-  padding: .75em;
-  margin: 1.5rem;
+  padding: .5em .75em;
+  margin: 1rem;
   background-color: #623b0c;
   color: #fff;
   border-radius: 8px;
